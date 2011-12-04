@@ -1,0 +1,8 @@
+* iTunesRank "software developer" with
+        http://itunes.apple.com/search?term=Paul-Andr%C3%A9+Panserrieu&entity=iPadSoftware&attribute=softwareDeveloper
+        http://itunes.apple.com/search?term=Paul-Andr%C3%A9+Panserrieu&entity=software&attribute=softwareDeveloper
+
+
+get all Reviews:
+
+curl -H "Host: itunes.apple.com" -H "Accept-Language: en-us, en;q=0.50" -H "X-Apple-Store-Front: 143444,5" -H "X-Apple-Tz: 3600" -U "iTunes/9.2.1 (Macintosh; Intel Mac OS X 10.5.8) AppleWebKit/533.16":"" "http://itunes.apple.com/WebObjects/MZStore.woa/wa/customerReviews?s=143444&id=409683778&displayable-kind=11"
